@@ -1,6 +1,6 @@
 
 .group1, .group2 {text-align: center;}
-.nav {background-image: url(/images/range.png); background-size:cover ; height: 200px;}
+.nav {background-image: url(images/range.png); background-size:cover ; height: 200px;}
 
 ul li {list-style-type: none; float:left; overflow: visible;}
 .logo {margin-left: 20px;}
