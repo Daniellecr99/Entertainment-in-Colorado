@@ -1,4 +1,67 @@
 
+* {
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+}
+
+h1{
+    text-align:center;
+    font-weight: 900;
+    color:#FFD703;
+}
+
+.card a, footer a{
+    text-decoration:none;
+    color: #FFD703;
+    
+}
+
+.card-body {
+    background-color:#BF0A30;
+    animation-name: card;
+    animation-duration: 2s;
+    animation-delay:1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes card {
+    from {background-color: #BF0A30;}
+    to {background-color: #032868;}
+  }
+
+.container, footer{
+    margin: 10px;
+    background-color:#032868;
+}
+
+.container {
+    padding-left:60px;
+}
+
+h3:hover{
+    background-color:#BF0A30;
+    transform:scale(1.2,1.2);
+}
+
+.btn{
+    margin-left:100px;
+    background-color: #FFD703;
+    color:#032868;
+    text-decoration: none;
+}
+
+.btn-dark a{
+    text-decoration:none;
+}
+
+
+
+
+footer {
+    text-align:center;
+}
+
+
 .group1, .group2 {text-align: center;}
 .nav {background-image: url(images/range.png); background-size:cover ; height: 200px;}
 
@@ -10,4 +73,5 @@ ul li {list-style-type: none; float:left; overflow: visible;}
 li .dropdown {visibility: hidden; width: 180px; height: 25px; line-height: 20px; margin-right: 100px;}
 .link {border: 2px groove black; border-radius: 25px; text-decoration: none;  width: 150px; height: 35px; line-height: 35px; display: inline-block; color: black; background-color:white; text-align: center; margin-left: -15px;}
 li:hover .dropdown {visibility: visible; display: block;}
+
 
