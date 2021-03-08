@@ -71,7 +71,7 @@ ul li {list-style-type: none; float:left; overflow: visible;}
 .home {margin-right: 65px; margin-left: 10px;}
 
 li .dropdown {visibility: hidden; width: 180px; height: 25px; line-height: 20px; margin-right: 100px;}
-.link {border: 2px groove black; border-radius: 25px; text-decoration: none;  width: 150px; height: 35px; line-height: 35px; display: inline-block; color: black; background-color:white; text-align: center; margin-left: -15px;}
+.link {border: 4px double rgb(39, 100, 179); border-radius: 25px; text-decoration: none;  width: 180px; height: 35px; line-height: 35px; display: inline-block; color: black; background-color:white; text-align: center; margin-left: -25px;}
 li:hover .dropdown {visibility: visible; display: block;}
 
 
