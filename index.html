@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" type="text/css" rel="stylesheet">
+
     <!--Bootstrap Links-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -17,13 +18,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!--Google Fonts Link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
     <title>Safe and Fun Activities in Colorado</title>
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="container container1">
         <div class="row">
             <div class="col-md-12 nav">
                 <div>
@@ -95,7 +99,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 head">
                 <!--H1 and Page Summary-->
                 <h1>6 Fun, Safe Things to Do in Colorado</h1>
                 <p>Enjoy these suggestions of outdoor activities to do during the pandemic. Lorem ipsum dolor sit amet
@@ -108,7 +112,7 @@
             <div class="col-md-4">
                 <!--Sign Up Form-->
                 <form class="form">
-                    <h3>Contact Us!</h3>
+                    <h3>Stay Connected!</h3>
                     <div class="form group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -123,13 +127,14 @@
                     <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Sign Me Up For Newsletter</label>
+                        <br>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
 
             </div>
-
-
-
         </div>
+
         <br>
         <br>
         <div class="row ">
@@ -137,25 +142,30 @@
                 <a href="https://www.denver.org/things-to-do/sports-recreation/bike-trails/" target="_blank"> <img
                         src="images/denver-cherry-creek.jpeg" alt="Cherry Creek Trail" width="350px"> </a>
                 <h3>Biking Trails</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, inventore nemo
-                    asperiores.</p>
+               <p>Bike the Cherry Creek Bike Trail. The Cherry Creek Regional Trail is a picturesque 40-mile route that
+                    begins in downtown Denver. </p>
+                <button type="button" class="btn btn-dark"><a
+                        href="https://www.traillink.com/trail/cherry-creek-regional-trail/">More Info</a></button>
             </div>
 
             <div class="col-md-4 group1">
                 <a href="https://cpw.state.co.us/placestogo/parks/CherryCreek" target="_blank"><img
                         src="images/Crerry-creek-reservoir.jpg" alt="Creek Creek Reservoir" width="350px"> </a>
                 <h3>Cherry Creek Reservoir</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, inventore nemo
-                    asperiores.</p>
+                <p>Swim or kayak in the Cherry Creek Reservoir. A scenic oasis in the Denver area offering a wide
+                    variety of water and land activities for outdoor enthusiasts. </p>
+                <button type="button" class="btn btn-dark"><a
+                        href="https://www.colorado.com/state-parks/cherry-creek-state-park">More Info</a></button>
             </div>
 
 
             <div class="col-md-4 group1">
                 <a href="https://theknow.denverpost.com/2020/05/21/drive-in-movie-theaters-open-colorado-coronavirus/239254/"
                     target="_blank"> <img src="images/Drive-in.jpg" alt="Movie Drive-in" width="350px"> </a>
-                <h3>Drive-in Movies</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, inventore nemo
-                    asperiores.</p>
+                 <h3>88 Drive In Movie Theater</h3>
+                <p>Catch a movie at the drive in movie theater. Enjoy the movie theater experience while staying safe.
+                    This theater has been open since 1972. </p>
+                <button type="button" class="btn btn-dark"><a href="https://www.88drivein.net/">More Info</a></button>
             </div>
 
 
@@ -171,16 +181,18 @@
                         src="images/Rocky-Mountain-National-Park.jpg" alt="Rocky Mountain National Park" width="350px">
                 </a>
                 <h3>Rocky Mountain National Park</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, inventore nemo
-                    asperiores.</p>
+                <p>With majestic mountains, tundra wildflowers, abundant wildlife, Trail Ridge Road (the highest paved
+                    road in the US), and over 350 miles of trails, Rocky Mountain National Park is spectacular! </p>
+                <button type="button" class="btn btn-dark"><a href="https://rockymountainnationalpark.com/">More
+                        Info</a></button>
             </div>
 
             <div class="col-md-4 group2">
                 <a href="https://www.denver.org/about-denver/neighborhood-guides/washington-park/" target="_blank"><img
                         src="images/Washington-Park.jpg" alt="Washington Park" width="350px"> </a>
                 <h3>Washington Park</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, inventore nemo
-                    asperiores.</p>
+                 <p>Grab some sandwiches and beverages, and enjoy a picnic at Washington Park with some friends. Make sure to stay 6 feet apart.</p>
+                <button type="button" class="btn btn-dark"><a href="https://www.tripadvisor.com/Attraction_Review-g33388-d129068-Reviews-Washington_Park-Denver_Colorado.html">More Info</a></button>
             </div>
 
 
@@ -188,8 +200,8 @@
                 <a href="https://www.coloradoski.com/covid-19" target="_blank"> <img src="images/Ski-slopes.jpg"
                         alt="Ski Slopes" width="350px"> </a>
                 <h3>Ski Resorts</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem tempora, inventore nemo
-                    asperiores.</p>
+                <p>From Breckenridge to Loveland to Crested Butte, Colorado has some of the best skiing and snowboarding runs in the world. And everyone is already wearing gloves and masks! </p>
+                <button type="button" class="btn btn-dark"><a href="https://www.snowpak.com/colorado/best-ski-resorts">More Info</a></button>
             </div>
 
 
@@ -197,7 +209,8 @@
 
         <br>
         <br>
-
+  
+  
         <div class="footer-basic">
             <footer>
                 <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
