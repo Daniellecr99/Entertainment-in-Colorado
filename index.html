@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+
     <!--Bootstrap Links-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,33 +18,92 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!--Google Fonts Link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
     <title>Safe and Fun Activities in Colorado</title>
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="container container1">
+        <div class="row">
+            <div class="col-md-12 nav">
+                <div>
+                    <img src="images/Colorado-Logo.png" width="160px" class="home">
+                </div>
+
+                <ul>
+                    <li><img src="images/Covid.png" width="160px" class="logo">
+                        <div class="dropdown">
+                            <ul>
+                                <li><a class="link" target="_blank"
+                                        href="https://www.nytimes.com/interactive/2020/us/colorado-coronavirus-cases.html">Colorado
+                                        Cases</a></li>
+                                <li><a class="link" target="_blank" href="https://covid19.colorado.gov/testing">Testing Sites</a></li>
+                                <li><a class="link" target="_blank"
+                                        href="https://covid19.colorado.gov/for-coloradans/vaccine/where-can-i-get-vaccinated">Vaccine
+                                        Information</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><img src="images/Weather.png" width="160px" class="logo">
+                        <div class="dropdown">
+                            <ul>
+                                <li><a class="link" target="_blank"
+                                        href="https://weather.com/weather/tenday/l/Denver+CO?canonicalCityId=9298101d6fcde701a8dae5f27c875376e208cae14ce31a258c225f63573146be">Denver
+                                        Weather</a></li>
+                                <li><a class="link" target="_blank"
+                                        href="https://weather.com/weather/tenday/l/Littleton+CO?canonicalCityId=fdf4c3d397c75000204ff2ba1b9e9fa4adb284a0bf750f25ad6cd43c96cf9090">Littleton
+                                        Weather</a></li>
+                                <li><a class="link" target="_blank"
+                                        href="https://weather.com/weather/tenday/l/Boulder+CO?canonicalCityId=d9fcb1b4d7fb091af2d43677ee216a5c8624d8b979e44d0fe7c310f80ae72b06">Boulder
+                                        Weather</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><img src="images/Donate-heart.gif" width="160px" class="donate">
+                        <div class="dropdown">
+                            <ul>
+                                <li><a class="link" target="_blank"
+                                        href="https://support.savethechildren.org/site/Donation2?df_id=4008&4008.donation=form1">Save
+                                        the Children</a></li>
+                                <li><a class="link" target="_blank" href="https://watermission.org/covid19response/">Water Mission</a></li>
+                                <li><a class="link" href="https://give4cdcf.org/" target="_blank">CDC Foundation</a></li></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <br>
         <div class="row">
             <div class="col-md-4">
                 <!--Alert:Testing Sites-->
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
+                        <h5 class="card-title">Stay Safe!</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Do your part to stop the spread.</h6>
+                        <p class="card-text">Before doing any activities outside of your home, it is important to take
+                            the necessary precautions to stay safe. Click the links below to find testing and
+                            vaccination locations.</p>
+                        <a href="https://www.denvergov.org/Government/COVID-19-Information/Getting-Tested#section-1"
+                            class="card-link">Get Tested</a>
+                        <a href="https://www.vaccinespotter.org/CO/" class="card-link">Get Vaccinated</a>
                     </div>
                 </div>
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 head">
                 <!--H1 and Page Summary-->
                 <h1>6 Fun, Safe Things to Do in Colorado</h1>
-                <p>Enjoy these suggestions of outdoor activities to do during the pandemic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, repellendus nostrum? Minima temporibus
+                <p>Enjoy these suggestions of outdoor activities to do during the pandemic. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Aut, repellendus nostrum? Minima temporibus
                     optio corrupti molestias pariatur quos ipsa eius voluptatem, nulla odio impedit facilis, consectetur
                     animi inventore quam maxime?</p>
 
@@ -51,7 +112,7 @@
             <div class="col-md-4">
                 <!--Sign Up Form-->
                 <form class="form">
-                    <h3>Contact Us!</h3>
+                    <h3>Stay Connected!</h3>
                     <div class="form group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -66,27 +127,113 @@
                     <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Sign Me Up For Newsletter</label>
+                        <br>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
 
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="row ">
+            <div class="col-md-4 group1">
+                <img src="images/denver-cherry-creek.jpeg" alt="Cherry Creek Trail" width="350px">
+                <h3>Cherry Creek Trail</h3>
+               <p>Bike the Cherry Creek Bike Trail. The Cherry Creek Regional Trail is a picturesque 40-mile route that
+                    begins in downtown Denver. </p>
+                <button type="button" class="btn btn-dark"><a
+                        href="https://www.traillink.com/trail/cherry-creek-regional-trail/" target="_blank">More Info</a></button>
+            </div>
+
+            <div class="col-md-4 group1">
+               <img src="images/Crerry-creek-reservoir.jpg" alt="Creek Creek Reservoir" width="350px">
+                <h3>Cherry Creek Reservoir</h3>
+                <p>Swim or kayak in the Cherry Creek Reservoir. A scenic oasis in the Denver area offering a wide
+                    variety of water and land activities for outdoor enthusiasts. </p>
+                <button type="button" class="btn btn-dark"><a
+                        href="https://www.colorado.com/state-parks/cherry-creek-state-park" target="_blank">More Info</a></button>
+            </div>
+
+
+            <div class="col-md-4 group1">
+                <img src="images/Drive-in.jpg" alt="Movie Drive-in" width="350px">
+                <h3>88 Drive In Movie Theater</h3>
+                <p>Catch a movie at the drive in movie theater. Enjoy the movie theater experience while staying safe.
+                    This theater has been open since 1972. </p>
+                <button type="button" class="btn btn-dark"><a href="https://www.88drivein.net/" target="_blank">More Info</a></button>
             </div>
 
 
 
         </div>
 
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-4 group2">
+               <img src="images/Rocky-Mountain-National-Park.jpg" alt="Rocky Mountain National Park" width="350px">
+                <h3>Rocky Mountain National Park</h3>
+                <p>With majestic mountains, abundant wildlife, Trail Ridge Road (the highest paved
+                    road in the US), and over 350 miles of trails, Rocky Mountain National Park is spectacular! </p>
+                <button type="button" class="btn btn-dark"><a href="https://rockymountainnationalpark.com/" target="_blank" >More
+                        Info</a></button>
+            </div>
+
+            <div class="col-md-4 group2">
+                <img src="images/Washington-Park.jpg" alt="Washington Park" width="350px"> </a>
+                <h3>Washington Park</h3>
+                 <p>Grab some sandwiches and beverages, and enjoy a picnic at Washington Park with some friends. Make sure to stay 6 feet apart.</p>
+                <button type="button"  class="btn btn-dark"><a href="https://www.tripadvisor.com/Attraction_Review-g33388-d129068-Reviews-Washington_Park-Denver_Colorado.html" target="_blank">More Info</a></button>
+            </div>
 
 
+            <div class="col-md-4 group2">
+                <img src="images/Ski-slopes.jpg" alt="Ski Slopes" width="350px">
+                <h3>Ski Resorts</h3>
+                <p>From Breckenridge to Loveland to Crested Butte, Colorado has some of the best skiing and snowboarding runs in the world. And everyone is already wearing gloves and masks! </p>
+                <button type="button" class="btn btn-dark"><a href="https://www.coloradoski.com/covid-19" target="_blank">More Info</a></button>
+            </div>
 
 
+        </div>
+
+        <br>
+        <br>
+  
+  
+        <div class="footer-basic">
+            <footer>
+                <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
+                            class="icon ion-social-snapchat"></i></a><a href="#"><i
+                            class="icon ion-social-twitter"></i></a><a href="#"><i
+                            class="icon ion-social-facebook"></i></a>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Home</a></li>
+                    <li class="list-inline-item"><a href="#">Services</a></li>
+                    <li class="list-inline-item"><a href="#">About</a></li>
+                    <li class="list-inline-item"><a href="#">Terms</a></li>
+                    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                </ul>
+                <a href="">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEUDAwP///3///8AAAAHBwf39/X8/Prz8/Hk5OK0tLLOzszs7Oo5OTjY2NahoaB0dHRaWlq/v70dHR2urq40NDOpqadlZWVpaWlSUlIfHx6lpaalpaIODg5SUlBtbW25ubmbm5uHh4bHx8SOjo5BQUEmJiZKSkqWlpZ/f38VFRXd3d3U1NKT9xOzAAAE2ElEQVR4nO3di1LiMBQG4LrpTcpVEEG7gqi7Wt7//bYFZBeEk8sGyDn8/4zj2KFpvkna9BJqdCM90aUrcPJAyD8Q8g+E/AMh/0DIPxDyzxUK0zRpkjLMV8VJ4eqDWZYlLNNUvK56SgtfRm0fGdnHy2Z/5kW2S9wV1g39rFhnuqwKWpg9qDJmmzKaDlr5biPuCbPiQcVsiWWppreLuhGJNlwJuRLLMo6m94NOoW3D5rNeEm9/xTsLfZW/v7m4Fj6aCaNLHzCcUldcrYXaXloLI35ZVXzdS+ULTXrppavrELM2TBgLIxthDGGQQS+9rjaUL0QvDTMQXlcvlS9ELw0zEEIYfiCEMPxAGJbw711Q83W4COm7vtSaHISNoex/dGedPC/q5HWqqjWY3c9fX3r9tzvSGLyw4T0P8x9E0rQiiIELG96C0q1TcBUqdTcv9D62wrr95pmJj6tQqbGhTytUQQpVOTP1eRBmxfjcQtUmD58Wwpqo7sITqklqAdQL9c+AzyxUYxsfQ6Et0FBIPgM+q1CNLIHchEoZjfJ8hUoNbIF64VNQwp41kFcbKmV8JsNV+GgPZCVU7w5AXsLhKYTTcI406tNhL2TVhurFBchIqFTnNMJgeqn9+Ro74at4YUu4UCmz696k2MuSjdBgN6wex+33z/0J+VTNghJqx4rByOXBRTijhe6EJnmweuq0SVBC+kCT/HKqQFBC+uK+57b9gISaQ2nHcfMhCUtS+CxA2KaA6acA4RslJEd1KiEJ+5Rw5rp1NsLf4oUf4oWOoyGEEHoNhI7FQgihx0DoWGxA92kgdCwWvRRCj4HQsdjr2A8hhNCaciQTSki9UE0r7J5XqN5uhwdDTmhbHF6nyaP22dOZj6XW00d1qcQL6VupF9gPvQu74oUv4oUT8UL6qZSEI41+pgJzYR7cXAzfwpYGGEfchbrhsBYy76Vz8UL6qkOCkJ5ItBKe+9rCs3Dk7Ujj6y1KnoWFbsBnfyylvoxvKQy0DenhUEIbDsUL6WsnCULNTTgB4yF9dShAmNDDoQAh+V2LSMJ+SN9KlCAcmAhZ91L6hrcE4WuIQnXk2Yzm2dPhhzK6ydGX2A+PPntyEWpnf19EeAx+kueHhsKzvGPodMJQ/r/FqYU31yw805uwIHQr9SqEwbyv7aJCxuNhSO9rg9Cx2IDe1yZo1teRQOhYLIQQegyEjsVCKEOIbyNA6CkQOhYrXhiLF8pvQ4wWEPoMhI7FQgihx0DoWCyEMoTyz2nkC+X3Uggh9BQIHYuFEEKPgdCxWAgh9BgIHYs1EzKeuReZ/adVCL3kojP3mAtlz6CFEEKfgdCxWAgh9BgIHYuFUIRQe166FZ6WeBKhsmnDeL1O83vzs10SexG+f/SO5qN9VLja+j+1Wi/8+qu0acNYl025zkQy+65oJdCntGhDg/yX0DzrVjNMaSYsjQvcUtdNuu06RvRvH4q/MNFXJ7KwbYQm3yEd0x0o9HzqhfOHfn/ys85kLwcWrZcfWtjXZO8D9QoHy7bIpsrj4aLSCKvW7P6p6xZf67mW0+3eD2etPEuPC2+SIl8uBrdsMxssOgUpTLMi7yxbfLOs8iwhhUlSFDnjFEUNpIQ3aW1MMr6pa78L/CZsjMyz5/kulBYI+QdC/oGQfyDknz/8pHZEkDPoLgAAAABJRU5ErkJggg=="
+                        alt="facebook logo" width="40px" height="40px">
+                </a>
+                <a href="https://www.instagram.com/tumble__tots_/?hl=en">
+                    <img src="data:image/png;base64,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"
+                        alt img="instagram logo" width="40px" height="40px" >
+                </a>
 
 
+                <p> &copy; Katie & Danielle &#124; 2021 &#124;<br>
+                    <a href="mailto:kmbroz@gmail.com">katie.danelle@project.com</a>
 
+                </p>
+            </footer>
 
-    </div>
-
-    <h1>Hello</h1>
- <h1>Branch test</h1>
-    
 </body>
 
 </html>
