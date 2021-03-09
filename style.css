@@ -43,8 +43,12 @@ h3:hover{
     transform:scale(1.2,1.2);
 }
 
-.btn{
-    margin-left:100px;
+.group1 h3:hover, .group2 h3:hover{
+    background-color:#BF0A30;
+    transform:scale(1.05,1.05);
+}
+
+button {
     background-color: #FFD703;
     color:#032868;
     text-decoration: none;
@@ -54,15 +58,18 @@ h3:hover{
     text-decoration:none;
 }
 
-
+.btn-dark a:not(.btn-primary){
+    text-decoration:none; font-weight: bold; color: black;
+}
+button:not(.btn-primary) {background: url(images/snowflakes.gif);}
 
 
 footer {
     text-align:center;
 }
 
-
-.group1, .group2 {text-align: center;}
+.group1 h3, .group2 h3 {margin-top: 10px;}
+.group1, .group2 {text-align: center; margin-bottom: 15px;}
 .nav {background-image: url(images/range.png); background-size:cover ; height: 200px;}
 
 ul li {list-style-type: none; float:left; overflow: visible;}
@@ -74,4 +81,20 @@ li .dropdown {visibility: hidden; width: 180px; height: 25px; line-height: 20px;
 .link {border: 4px double rgb(39, 100, 179); border-radius: 25px; text-decoration: none;  width: 180px; height: 35px; line-height: 35px; display: inline-block; color: black; background-color:white; text-align: center; margin-left: -25px;}
 li:hover .dropdown {visibility: visible; display: block;}
 
+.dropdown a:hover{ transform:scale(1.1,1.1);}   
+    
+li a:hover{ color: #BF0A30;
+}
 
+.footer-basic{
+    padding-bottom:10px;
+}
+
+.list-inline{
+    margin-left:425px;
+
+}
+
+hr{
+    background-color:white;
+}
