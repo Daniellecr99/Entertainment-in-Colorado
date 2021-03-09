@@ -85,3 +85,16 @@ li:hover .dropdown {visibility: visible; display: block;}
     
 li a:hover{ color: #BF0A30;
 }
+
+.footer-basic{
+    padding-bottom:10px;
+}
+
+.list-inline{
+    margin-left:425px;
+
+}
+
+hr{
+    background-color:white;
+}
